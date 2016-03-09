@@ -25,7 +25,7 @@ user_agent = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, lik
 headers = { 'User-Agent' : user_agent }  
 
 #需要POST的数据#
-value = {'number':'2013081221','passwd':'2013081221','select':'cert_no','returnUrl':''}
+value = {'number':'xxxx','passwd':'xxxx','select':'cert_no','returnUrl':''}
 postdata=urllib.urlencode(value)
 
 #自定义一个请求#

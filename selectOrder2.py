@@ -4,7 +4,7 @@
 import MySQLdb
 try:
     conn1 = MySQLdb.connect(host = 'localhost', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
-    conn2 = MySQLdb.connect(host = '222.18.167.27', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
+    conn2 = MySQLdb.connect(host = 'xxx.xxx.xxx.xx', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
     cur1 = conn1.cursor()
     cur2 = conn2.cursor()
     cur1.execute("select * from Class1 order by score DESC")

@@ -3,7 +3,7 @@
 
 import MySQLdb
 try:
-	conn = MySQLdb.connect(host = 'localhost', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
+	conn = MySQLdb.connect(host = 'xxx.xxx.xxx.xx', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
 	cur = conn.cursor()
 	sql = """create table Class1(id int(3) auto_increment not null primary key,
 		name char(10) not null,
@@ -15,7 +15,7 @@ try:
 	conn.commit()
 	cur.close()
 	conn.close()
-	conn2 = MySQLdb.connect(host = '222.18.167.27', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
+	conn2 = MySQLdb.connect(host = 'xxx.xxx.xxx.xx', user = 'root', passwd = '12341234',port = 3306,db = 'Student')
 	cur2 = conn2.cursor()
 	sql = """create table Class2(id int(3) auto_increment not null primary key,
 		name char(10) not null,

@@ -7,7 +7,7 @@ if __name__ == '__main__':
     import MySQLdb
     import math
     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-    sock.bind(('222.18.167.49',8001))
+    sock.bind(('xxx.xxx.xxx.xx',8001))
     sock.listen(5)
     while True:
         connection,address = sock.accept()

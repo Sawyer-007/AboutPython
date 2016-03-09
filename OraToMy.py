@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     try:
         mysqlCon = MySQLdb.connect(host = 'localhost', user = 'root', passwd = '123456',port = 3306,db = 'test')
-        oracleCon = cx_Oracle.connect('syz','1234','10.254.247.69:1521/ORCL')
+        oracleCon = cx_Oracle.connect('syz','1234','xxx.xxx.xxx.xx:1521/ORCL')
         mysqlCur = mysqlCon.cursor()
         oracleCur = oracleCon.cursor()
 
